@@ -1,10 +1,16 @@
 {
     "extends": [
-        "eslint-config-airbnb",
-        "standard"
+        "eslint-config-airbnb"
     ],
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module"
+    },
+    "rules": {
+        "max-len": ["error", 125]
+    },
+    "globals": {
+        "document": true,
+        "window": true
     }
 }
