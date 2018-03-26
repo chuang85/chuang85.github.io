@@ -18,7 +18,7 @@ export default class extends Phaser.State {
     this.load.spritesheet('kaboom', 'assets/pd2/explosion.png', 64, 64, 23);
     this.load.image('critical', 'assets/pd2/criticalhit.png');
 
-        // tilemap
+    // tilemap
     this.load.tilemap('testlevel', 'assets/pd2/ground.json', null, Phaser.Tilemap.TILED_JSON);
     this.load.image('ground', 'assets/pd2/ground.png');
 
@@ -36,13 +36,13 @@ export default class extends Phaser.State {
     this.load.spritesheet('girl', 'assets/pd2/girl.png', 32, 32);
     this.load.image('heal', 'assets/pd2/hero/jugg/heal.png');
 
-        // fonts, gray effects
+    // fonts, gray effects
     this.load.bitmapFont('flappyfont',
         'assets/pd2/fonts/flappyfont/flappyfont.png', 'assets/pd2/fonts/flappyfont/flappyfont.fnt');
     this.load.script('gray', 'assets/pd2/filters/Gray.js');
     this.load.spritesheet('gameover', 'assets/pd2/gameover_white.png', 50, 50);
 
-        // rain
+    // rain
     this.load.spritesheet('rain', 'assets/pd2/rain.png', 17, 17);
   }
 

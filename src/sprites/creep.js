@@ -11,7 +11,7 @@ export default class extends Phaser.Sprite {
     this.maxHealth = hp;
     this.health = this.maxHealth;
 
-        // enable physics on the hero
+    // enable physics on the hero
     this.game.physics.arcade.enableBody(this);
     this.animations.play('left');
   }
